@@ -10,5 +10,11 @@ public class GitTest {
         System.out.println("Hello,Git2!!!!");
         System.out.println("Hello,Git3!!!!");
         System.out.println("Hello,Git4!!!!(hot-fix1.0)");
+
+
+        Person p1 = new Person("5682035","kkkkkkkkk");
+        Person p2 = new Person("5555555","zzzzzzz");
+
+        System.out.println(p1.getName() + p1.getName());
     }
 }
