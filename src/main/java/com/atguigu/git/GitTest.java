@@ -14,6 +14,9 @@ public class GitTest {
 
         Person p1 = new Person("5682035","kkkkkkkkk");
         Person p2 = new Person("5555555","zzzzzzz");
+        
+        List<Person> list1 = new ArrayList<>();
+        list1.add(p1);
 
         System.out.println(p1.getName() + p1.getName());
         System.out.println("masterTestDemo");
